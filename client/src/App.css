@@ -1,0 +1,149 @@
+
+
+  body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f1f1f1;
+  background-color: rgb(4, 37, 65);
+  min-height: 100vh;
+}
+
+.home-main-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.left-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c2a46;
+}
+
+.left-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  color: #354754;
+  background-color: #fff;
+  text-align: center;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+ 
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: hsl(158, 13%, 29%);
+  color:  hsl(158, 13%, 29%);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color:  hsl(158, 13%, 29%);
+  color: #000;
+}
+
+  
+
+  
+  .auth-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+ 
+ 
+.home-container p{
+  padding: 30px 40px;
+
+}
+  .register-from {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    color: #354754;
+  }
+  
+  .login-from {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    color: #354754;
+    
+  }
+
+ .auth-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #d2d2d4; /* Light gray */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(19, 17, 17, 0.1); /* Optional shadow */
+  margin-top: 50px;
+}
+
+
+  .auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .auth-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #40534C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: #ff6b6b;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .logout-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Your existing styles for the summarizer */
+  .text-box {
+    /* ... */
+  }
